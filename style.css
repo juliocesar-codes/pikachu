@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--primary-color);
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+}
+
+:root {
+    --primary-color: #F5CF06;
+    --secundary-color: #8E4106;
+}
+
+header {
+    background-color: var(--primary-color);
+    height: 150px;
+    width: 100%;
+    padding: 70px;
+    display: flex;
+    gap: 15px;
+}
+
+h2 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: var(--secundary-color);
+    font-size: 32px;
+}
+
+header img {
+    height: 50px;
+}
+
+main {
+    background-color: var(--primary-color);
+}
+
+.paragrafos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.pikachu-sombra {
+    font-size: 330px;
+    color: #ffffff;
+    z-index: 0;
+    position: absolute;
+    opacity: 0.2;
+    top: -10px;
+}
+
+.pikachu-branco {
+    font-size: 300px;
+    color: #ffffff;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--secundary-color);
+}
+
+.lets-go {
+    font-size: 64px;
+    width: 770px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: var(--secundary-color);
+}
+
+.text {
+    font-size: 20px;
+    width: 550px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    z-index: 1;
+    position: absolute;
+}
+
+.texts {
+    position: absolute;
+    left: 100px;
+    z-index: 2;
+    margin-right: 50px;
+    /* Adiciona espaço à direita do texto */
+}
+
+.foto-pikachu {
+    position: absolute;
+    z-index: 1;
+    margin-left: 50px;
+    right: 22%;
+    margin-right: 50px;
+    /* Adiciona espaço à direita da imagem */
+}
+
+.download {
+    position: absolute;
+    right: 80px;
+    font-size: 48px;
+    width: 411px;
+    height: 100px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #ffffff;
+    background-color: var(--secundary-color);
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left: 50px;
+    top: 72%
+}
+
+footer {
+    position: absolute;
+    top: 95%;
+    width: 100%;
+    justify-content: center;
+    align-content: center;
+    display: flex;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: var(--secundary-color);
+}
